@@ -4,34 +4,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script type="text/javascript">
-	var game1 = [];
-	loop:
-	for(i = 0 ; i < 6 ; i++){
-		var no = Math.floor(Math.random()*45 + 1);
-		for(j = 0 ; j < i ; j++){
-			var tmp = game1[j];
-			if(tmp == no){
-				i--;
-				continue loop;
-			}
-		}
-		game1[i] = no;
-	}
 	
-	document.write(game1 + '<br>');
-	
-	for(i = 0 ; i < game1.length - 1 ; i++){
-		for(j = i k j < game1.length; j++){
-			if(game1[i] > game1[j]){
-				var tmp = game1[i];
-				game1[i] = game1[j];
-				game1[j] = tmp;
-				
-			}
-		}
-	}
-	
-	document.write('이번주 희망번호 : ' + game1);
 </script>
 </head>
 <body>
