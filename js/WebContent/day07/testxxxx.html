@@ -5,7 +5,15 @@
 <title></title>
 
 <script type="text/javascript">
-
+	var str = '창문너머 어렴풋이 ...';
+	document.write('str 길이 : ' + str.length + '<br>');
+	var str2 = new String('jennie');
+	document.write('str : ' + str2 + '<br>'); // 문자열 생성자 String
+	document.write('str2.indexOf("m") : ' + (str2.indexOf("m") == -1 ? '없음' : str2.indexOf("m")) + '<br>');
+	document.write('str2.indexOf("n") : ' + (str2.indexOf("n") == -1 ? '없음' : str2.indexOf("n")) + '<br>');
+	var str3 = 'Hello BlackPink';
+	var idx = str3.indexOf(' ');
+	var result = str3.substring(0,idx);
 </script>
 </head>
 <body>
