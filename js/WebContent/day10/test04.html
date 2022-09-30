@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link type="text/css" rel="stylesheet" href="../css/w3.css">
+<link type="text/css" rel="stylesheet" href="../css/smart.css">
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+	<div class="w3-content mxw650">
+		<div id="d1">div</div>
+	</div>
+<script type="text/javascript">
+/*
+	document.getElementById('d1').style.backgroundColor = 'orange';
+	document.getElementById('d1').style.display = 'inline-block';
+	document.getElementById('d1').style.width = '300px';
+	document.getElementById('d1').style.height = '300px';
+*/
+/*
+	document.getElementById('d1').style='background-color: orange; disply: inline-block;' +
+											'width: 300px; heigth: 300px; text-align: center;'+
+											'font-size: 16pt;';
+*/
+	var sid = document.getElementById('d1').getAttribute('id');
+	
+//	document.write(sid);
+
+	document.getElementById('d1').setAttribute('class', 'inblock boximg w3-blue w3-card-4 w3-hover-pink w3-center');
+	// class="inblock bocimg w3-blue w3-card-4 w3-hover-pink" 라는 속성이 추가된다.
+	
+	
+	
+</script>
+</body>
+</html>
