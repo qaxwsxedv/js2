@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="../css/w3.css">
+<link type="text/css" rel="stylesheet" href="../css/smart.css">
+</head>
+<body>
+	<div class="w3-content mcw600 w3-center" id="content">
+		<h1 class="w3-padding w3-blue w3-card-4">Node 선택자</h1>
+		<div class="w3-col w3-margin-top">
+			<div class="inblock boximg glbl w3-blue mgb10">box1</div>
+			<div class="inblock boximg glbl w3-purple mgb10">box2</div>
+			<div class="inblock boximg glbl w3-deep-purple mgb10">box3</div>
+		</div>
+	</div>
+<script type="text/javascript">
+/*
+var el = document.getElementById('content').childNodes;
+	
+	alert(el[0].innerHTML);
+*/
+
+/*
+	var el = document.getElementById('content').children;
+	alert(el[0].innerHTML);
+*/
+	
+	var el = document.getElementById('content').firstChild;
+	alert(el.nextSibling.innerHTML);
+</script>
+</body>
+</html>
